@@ -52,12 +52,11 @@ def build_tree(tree,values):
                                 current_node = current_node.left
                         else:
                             if current_node.right== None:
-                                current_node.right=BTNode(value)
+                                current_node.right = BTNode(value)
                                 current_node=None
                             else:
-                                current_node=current_node.right
-                                   
- 
+                                current_node=current_node.right    
+                                
                             
                             
                             
